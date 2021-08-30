@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`prepareData consolidates the data correctly for year 2008 and customer SpaceX 1`] = `
+Array [
+  Object {
+    "flight_number": 4,
+    "mission_name": "RatSat",
+    "payloads_count": 1,
+  },
+]
+`;
+
+exports[`prepareData consolidates the data correctly for year 2010 and customer SpaceX 1`] = `
+Array [
+  Object {
+    "flight_number": 6,
+    "mission_name": "Falcon 9 Test Flight",
+    "payloads_count": 1,
+  },
+]
+`;
+
+exports[`prepareData consolidates the data correctly for year 2018 and customer NASA 1`] = `
+Array [
+  Object {
+    "flight_number": 62,
+    "mission_name": "Iridium NEXT Mission 6",
+    "payloads_count": 2,
+  },
+  Object {
+    "flight_number": 72,
+    "mission_name": "CRS-16",
+    "payloads_count": 1,
+  },
+  Object {
+    "flight_number": 64,
+    "mission_name": "CRS-15",
+    "payloads_count": 1,
+  },
+  Object {
+    "flight_number": 60,
+    "mission_name": "TESS",
+    "payloads_count": 1,
+  },
+  Object {
+    "flight_number": 59,
+    "mission_name": "CRS-14",
+    "payloads_count": 1,
+  },
+]
+`;
+
+exports[`prepareData consolidates the data correctly for year 2019 and customer Iridium 1`] = `
+Array [
+  Object {
+    "flight_number": 74,
+    "mission_name": "Iridium NEXT Mission 8",
+    "payloads_count": 1,
+  },
+]
+`;
