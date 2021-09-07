@@ -6,7 +6,18 @@ import * as TaskOneSolution from "../solutions/1_task";
   PLEASE DO NOT MODIFY THIS FILE
 */
 
-describe(`useRocketsData`, () => {
+const testFilterParams = [
+  {
+    year: 2008,
+    customerName: "SpaceX",
+  },
+  {
+    year: 2018,
+    customerName: "NASA",
+  },
+];
+
+describe(`# useRocketsData`, () => {
   test.each`
     year    | customerName
     ${2008} | ${"SpaceX"}
@@ -28,20 +39,22 @@ describe(`useRocketsData`, () => {
     }
   );
 
-  // Expected warning: An update to TestComponent inside a test was not wrapped in act(...).
+  // Expected warning: An update to TestComponent inside a test was not wrapped in act(...)
+  test("should return correct isLoading status", async () => {
+    const { result, waitForNextUpdate } = renderHook(() =>
+      useRocketsData(testFilterParams[0])
+    );
+
+    expect(result.current?.isLoading).toBe(true);
+
+    await waitForNextUpdate();
+
+    expect(result.current?.isLoading).toBe(false);
+  });
+
+  // Expected warning: An update to TestComponent inside a test was not wrapped in act(...)
   test("should re-calculate rockets with prepareData every time filterParams change", async () => {
     const spy = jest.spyOn(TaskOneSolution, "prepareData");
-
-    const testFilterParams = [
-      {
-        year: 2008,
-        customerName: "SpaceX",
-      },
-      {
-        year: 2018,
-        customerName: "NASA",
-      },
-    ];
 
     const { rerender, waitForNextUpdate } = renderHook(
       (filterParams) => useRocketsData(filterParams),

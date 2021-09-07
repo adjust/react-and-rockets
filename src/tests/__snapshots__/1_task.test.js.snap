@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`prepareData consolidates the data correctly for year 2008 and customer SpaceX 1`] = `
+exports[`# prepareData consolidates the data correctly for year 2008 and customer SpaceX 1`] = `
 Array [
   Object {
     "flight_number": 4,
@@ -10,7 +10,7 @@ Array [
 ]
 `;
 
-exports[`prepareData consolidates the data correctly for year 2010 and customer SpaceX 1`] = `
+exports[`# prepareData consolidates the data correctly for year 2010 and customer SpaceX 1`] = `
 Array [
   Object {
     "flight_number": 6,
@@ -20,7 +20,7 @@ Array [
 ]
 `;
 
-exports[`prepareData consolidates the data correctly for year 2018 and customer NASA 1`] = `
+exports[`# prepareData consolidates the data correctly for year 2018 and customer NASA 1`] = `
 Array [
   Object {
     "flight_number": 62,
@@ -50,7 +50,7 @@ Array [
 ]
 `;
 
-exports[`prepareData consolidates the data correctly for year 2019 and customer Iridium 1`] = `
+exports[`# prepareData consolidates the data correctly for year 2019 and customer Iridium 1`] = `
 Array [
   Object {
     "flight_number": 74,

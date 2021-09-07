@@ -5,7 +5,7 @@ import data from "./__fixtures__/data.json";
   PLEASE DO NOT MODIFY THIS FILE
 */
 
-describe(`prepareData`, () => {
+describe(`# prepareData`, () => {
   test.each`
     year    | customerName
     ${2008} | ${"SpaceX"}

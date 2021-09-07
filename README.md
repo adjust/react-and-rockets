@@ -21,7 +21,7 @@ Ultimately, we would like to give all candidates the same opportunity to solve t
 1. Read all of the 'Exercise' section before you begin.
 2. You **MUST clone** this repo to a location of your choosing where you can work on your solution. [See how to clone a repository here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository)
 3. Write your solutions inside of the files contained in **`src/solutions`**.
-4. Complete each task before advancing to the next one. For this, we have provided tests for each solution which you can easily run with **`yarn test:N_task`** (where **`N`** is the number of the current task). **Make sure all tests are green, and please DO NOT modify anything inside of `src/tests`.**
+4. Complete each task before advancing to the next one. For this, we have provided tests for each solution which you can easily run with **`yarn test:N`** (where **`N`** is the number of the current task). **Make sure all tests are green, and please DO NOT modify anything inside of `src/tests`.**
 5. Once you have finished all tasks you may run **`yarn test:all`** to double-check everything is working as expected.
 6. Push your solution to a **private repo** in your **personal Github account**.
 7. When you are ready for us to take a look, just add the following users as collaborators to your repo: `paul-pro`, `AragonCodes`, `Sc4ramouche`, `henderjarr`.
@@ -97,7 +97,7 @@ The expected result would be:
 
 ### TASK 2
 
-Implement `useRocketsData` hook, which takes an object of filter params `{year, customerName}`, fetches **the whole list of mission** from [SpaceX API](https://api.spacexdata.com/v3/launches/past), and returns an object `{rockets}`, where `rockets` are missions that have been processed with `prepareData`.
+Implement `useRocketsData` hook, which takes an object of filter params `{year, customerName}`, fetches **the whole list of mission** from [SpaceX API](https://api.spacexdata.com/v3/launches/past), and returns an object `{rockets, isLoading}`, where `rockets` are missions that have been processed with `prepareData`, and `isLoading` is a boolean status that returns `true` while data is being fetched.
 
 **OBSERVATIONS**
 
@@ -108,11 +108,19 @@ Implement `useRocketsData` hook, which takes an object of filter params `{year, 
 
 ### TASK 3
 
-Implement `RocketItem` component which takes `rocket` as a prop and renders a `div` with a string using template literals. The string must have the following format: "#`flight_number` `mission_name` (`payloads_count`)"
+Implement `RocketItem` and `RocketsList` components, where:
 
-**EXAMPLE**
+- `RocketItem` takes `rocket` as a prop and renders a `div` with a string using template literals. The string must have the following format: "#`flight_number` `mission_name` (`payloads_count`)"
 
-Considering we have the following rocket:
+- `RocketsList` Implement `RocketsList` component that uses `useRocketsData` hook with `FILTER_PARAMS` as argument (constant defined in solution file) and renders `rockets` as a list of `RocketItem`s.
+
+**OBSERVATIONS**
+
+- `FILTER_PARAMS` is a constant already defined in solution file
+
+**EXAMPLES**
+
+Considering we have the following `rocket` prop passed to `RocketItem`:
 
 ```js
 {
@@ -122,23 +130,11 @@ Considering we have the following rocket:
 }
 ```
 
-The formatted string would be:
+The rendered string should be:
 
 ```txt
 #99 Adjust Mission (4)
 ```
-
----
-
-### TASK 4
-
-Implement `RocketsList` component that uses `useRocketsData` hook with `FILTER_PARAMS` as argument (constant defined in solution file) and renders `rockets` as a list of `RocketItem`s.
-
-**OBSERVATIONS**
-
-- `FILTER_PARAMS` is already defined in `src/solutions/4_task.js` file
-
-**EXAMPLE**
 
 Considering we pass `FILTER_PARAMS` to `useRocketsData` hook, the expected render would be:
 
