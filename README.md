@@ -10,7 +10,7 @@
 
 Welcome to our little coding exercise. During this test you will be given the opportunity to play with JavaScript, React and rockets in the same project.
 
-We recommend you to block a time slot of 2-3 hours to complete the exercise, but feel free to accommodate your time as needed. Also, before you begin **please make sure that you have read and understood this readme file entirely**. If there's anything that you don't understand, please don't hesitate to reach out and ask.
+We recommend you to block a time slot of 2-3 hours to complete the exercise, but feel free to accommodate your time as needed. Also, before you begin **please make sure that you have read and understood this readme file entirely**. If there's anything that you don't understand, please don't hesitate to reach out and ask. For that, you can create a GitHub issue in your private clone repo, describe your question(s) and mention users from the "collaborators" list below, we will be notified about your question and reach out to clarify shortly. 
 
 Ultimately, we would like to give all candidates the same opportunity to solve the exercise in their own way, because of this, we kindly ask you **not to fork or share this repo (nor your solution) with anybody**
 
