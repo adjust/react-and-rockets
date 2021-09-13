@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import { RocketsList } from "./solutions/4_task";
+import { RocketsList } from "./solutions/3_task";
 
 ReactDOM.render(
   <React.StrictMode>
