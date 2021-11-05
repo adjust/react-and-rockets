@@ -39,9 +39,7 @@
             "payload_id": "FalconSAT-2",
             "norad_id": [],
             "reused": false,
-            "customers": [
-              "DARPA"
-            ],
+            "customers": ["DARPA"],
             "nationality": "United States",
             "manufacturer": "SSTL",
             "payload_type": "Satellite",
@@ -150,9 +148,7 @@
             "payload_id": "DemoSAT",
             "norad_id": [],
             "reused": false,
-            "customers": [
-              "DARPA"
-            ],
+            "customers": ["DARPA"],
             "nationality": "United States",
             "manufacturer": "SpaceX",
             "payload_type": "Satellite",
@@ -262,9 +258,7 @@
             "payload_id": "Trailblazer",
             "norad_id": [],
             "reused": false,
-            "customers": [
-              "NASA"
-            ],
+            "customers": ["NASA"],
             "nationality": "United States",
             "manufacturer": "Space Dev",
             "payload_type": "Satellite",
@@ -293,9 +287,7 @@
             "payload_id": "PRESat",
             "norad_id": [],
             "reused": false,
-            "customers": [
-              "ORS"
-            ],
+            "customers": ["ORS"],
             "nationality": "United States",
             "manufacturer": null,
             "payload_type": "Satellite",
@@ -403,13 +395,9 @@
         "payloads": [
           {
             "payload_id": "RatSat",
-            "norad_id": [
-              33393
-            ],
+            "norad_id": [33393],
             "reused": false,
-            "customers": [
-              "SpaceX"
-            ],
+            "customers": ["SpaceX"],
             "nationality": "United States",
             "manufacturer": "SpaceX",
             "payload_type": "Satellite",
@@ -512,13 +500,9 @@
         "payloads": [
           {
             "payload_id": "RazakSAT",
-            "norad_id": [
-              35578
-            ],
+            "norad_id": [35578],
             "reused": false,
-            "customers": [
-              "ATSB"
-            ],
+            "customers": ["ATSB"],
             "nationality": "Malaysia",
             "manufacturer": "Satrec",
             "payload_type": "Satellite",
@@ -587,9 +571,7 @@
   {
     "flight_number": 6,
     "mission_name": "Falcon 9 Test Flight",
-    "mission_id": [
-      "EE86F74"
-    ],
+    "mission_id": ["EE86F74"],
     "launch_year": "2010",
     "launch_date_unix": 1275677100,
     "launch_date_utc": "2010-06-04T18:45:00.000Z",
@@ -623,13 +605,9 @@
         "payloads": [
           {
             "payload_id": "Dragon Qualification Unit",
-            "norad_id": [
-              36595
-            ],
+            "norad_id": [36595],
             "reused": false,
-            "customers": [
-              "SpaceX"
-            ],
+            "customers": ["SpaceX"],
             "nationality": "United States",
             "manufacturer": "SpaceX",
             "payload_type": "Dragon Boilerplate",
@@ -708,9 +686,7 @@
   {
     "flight_number": 7,
     "mission_name": "COTS 1",
-    "mission_id": [
-      "EE86F74"
-    ],
+    "mission_id": ["EE86F74"],
     "launch_year": "2010",
     "launch_date_unix": 1291822980,
     "launch_date_utc": "2010-12-08T15:43:00.000Z",
@@ -744,14 +720,10 @@
         "payloads": [
           {
             "payload_id": "COTS Demo Flight 1",
-            "norad_id": [
-              37244
-            ],
+            "norad_id": [37244],
             "cap_serial": "C101",
             "reused": false,
-            "customers": [
-              "NASA(COTS)"
-            ],
+            "customers": ["NASA(COTS)"],
             "nationality": "United States",
             "manufacturer": "SpaceX",
             "payload_type": "Dragon 1.0",
@@ -780,9 +752,7 @@
             "payload_id": "Cubesats",
             "norad_id": [],
             "reused": false,
-            "customers": [
-              "NRO"
-            ],
+            "customers": ["NRO"],
             "payload_type": "Satellite",
             "payload_mass_kg": null,
             "payload_mass_lbs": null,
@@ -809,9 +779,7 @@
       },
       "fairings": null
     },
-    "ships": [
-      "AMERICANCHAMPION"
-    ],
+    "ships": ["AMERICANCHAMPION"],
     "telemetry": {
       "flight_club": null
     },
@@ -861,9 +829,7 @@
   {
     "flight_number": 8,
     "mission_name": "COTS 2",
-    "mission_id": [
-      "EE86F74"
-    ],
+    "mission_id": ["EE86F74"],
     "launch_year": "2012",
     "launch_date_unix": 1335944640,
     "launch_date_utc": "2012-05-22T07:44:00.000Z",
@@ -897,14 +863,10 @@
         "payloads": [
           {
             "payload_id": "COTS Demo Flight 2",
-            "norad_id": [
-              38348
-            ],
+            "norad_id": [38348],
             "cap_serial": "C102",
             "reused": false,
-            "customers": [
-              "NASA(COTS)"
-            ],
+            "customers": ["NASA(COTS)"],
             "nationality": "United States",
             "manufacturer": "SpaceX",
             "payload_type": "Dragon 1.0",
@@ -937,9 +899,7 @@
       },
       "fairings": null
     },
-    "ships": [
-      "AMERICANCHAMPION"
-    ],
+    "ships": ["AMERICANCHAMPION"],
     "telemetry": {
       "flight_club": null
     },
@@ -992,9 +952,7 @@
   {
     "flight_number": 9,
     "mission_name": "CRS-1",
-    "mission_id": [
-      "EE86F74"
-    ],
+    "mission_id": ["EE86F74"],
     "launch_year": "2012",
     "launch_date_unix": 1349656500,
     "launch_date_utc": "2012-10-08T00:35:00.000Z",
@@ -1028,14 +986,10 @@
         "payloads": [
           {
             "payload_id": "CRS-1",
-            "norad_id": [
-              38846
-            ],
+            "norad_id": [38846],
             "cap_serial": "C103",
             "reused": false,
-            "customers": [
-              "NASA (CRS)"
-            ],
+            "customers": ["NASA (CRS)"],
             "nationality": "United States",
             "manufacturer": "SpaceX",
             "payload_type": "Dragon 1.0",
@@ -1068,9 +1022,7 @@
             "payload_id": "Orbcomm-OG2",
             "norad_id": [],
             "reused": false,
-            "customers": [
-              "Orbcomm"
-            ],
+            "customers": ["Orbcomm"],
             "payload_type": "Dragon 1.0",
             "payload_mass_kg": 400,
             "payload_mass_lbs": 881,
@@ -1095,9 +1047,7 @@
       },
       "fairings": null
     },
-    "ships": [
-      "AMERICANISLANDER"
-    ],
+    "ships": ["AMERICANISLANDER"],
     "telemetry": {
       "flight_club": null
     },
@@ -1150,9 +1100,7 @@
   {
     "flight_number": 10,
     "mission_name": "CRS-2",
-    "mission_id": [
-      "EE86F74"
-    ],
+    "mission_id": ["EE86F74"],
     "launch_year": "2013",
     "launch_date_unix": 1362165000,
     "launch_date_utc": "2013-03-01T19:10:00.000Z",
@@ -1186,14 +1134,10 @@
         "payloads": [
           {
             "payload_id": "CRS-2",
-            "norad_id": [
-              39115
-            ],
+            "norad_id": [39115],
             "cap_serial": "C104",
             "reused": false,
-            "customers": [
-              "NASA (CRS)"
-            ],
+            "customers": ["NASA (CRS)"],
             "nationality": "United States",
             "manufacturer": "SpaceX",
             "payload_type": "Dragon 1.0",
@@ -1226,9 +1170,7 @@
       },
       "fairings": null
     },
-    "ships": [
-      "AMERICANISLANDER"
-    ],
+    "ships": ["AMERICANISLANDER"],
     "telemetry": {
       "flight_club": null
     },
@@ -1315,13 +1257,9 @@
         "payloads": [
           {
             "payload_id": "CASSIOPE",
-            "norad_id": [
-              39265
-            ],
+            "norad_id": [39265],
             "reused": false,
-            "customers": [
-              "MDA"
-            ],
+            "customers": ["MDA"],
             "nationality": "Canada",
             "manufacturer": "MDA",
             "payload_type": "Satellite",
@@ -1355,9 +1293,7 @@
         "ship": null
       }
     },
-    "ships": [
-      "AMERICANSPIRIT"
-    ],
+    "ships": ["AMERICANSPIRIT"],
     "telemetry": {
       "flight_club": null
     },
@@ -1409,9 +1345,7 @@
   {
     "flight_number": 12,
     "mission_name": "SES-8",
-    "mission_id": [
-      "6C42550"
-    ],
+    "mission_id": ["6C42550"],
     "launch_year": "2013",
     "launch_date_unix": 1386110460,
     "launch_date_utc": "2013-12-03T22:41:00.000Z",
@@ -1445,13 +1379,9 @@
         "payloads": [
           {
             "payload_id": "SES-8",
-            "norad_id": [
-              39460
-            ],
+            "norad_id": [39460],
             "reused": false,
-            "customers": [
-              "SES"
-            ],
+            "customers": ["SES"],
             "nationality": "Luxembourg",
             "manufacturer": "Orbital ATK",
             "payload_type": "Satellite",
@@ -1539,9 +1469,7 @@
   {
     "flight_number": 13,
     "mission_name": "Thaicom 6",
-    "mission_id": [
-      "9D1B7E0"
-    ],
+    "mission_id": ["9D1B7E0"],
     "launch_year": "2014",
     "launch_date_unix": 1389031560,
     "launch_date_utc": "2014-01-06T18:06:00.000Z",
@@ -1575,13 +1503,9 @@
         "payloads": [
           {
             "payload_id": "Thaicom 6",
-            "norad_id": [
-              39500
-            ],
+            "norad_id": [39500],
             "reused": false,
-            "customers": [
-              "Thaicom"
-            ],
+            "customers": ["Thaicom"],
             "nationality": "Thailand",
             "manufacturer": "Orbital ATK",
             "payload_type": "Satellite",
@@ -1673,9 +1597,7 @@
   {
     "flight_number": 14,
     "mission_name": "CRS-3",
-    "mission_id": [
-      "EE86F74"
-    ],
+    "mission_id": ["EE86F74"],
     "launch_year": "2014",
     "launch_date_unix": 1397849100,
     "launch_date_utc": "2014-04-18T19:25:00.000Z",
@@ -1709,14 +1631,10 @@
         "payloads": [
           {
             "payload_id": "CRS-3",
-            "norad_id": [
-              39680
-            ],
+            "norad_id": [39680],
             "cap_serial": "C105",
             "reused": false,
-            "customers": [
-              "NASA (CRS)"
-            ],
+            "customers": ["NASA (CRS)"],
             "nationality": "United States",
             "manufacturer": "SpaceX",
             "payload_type": "Dragon 1.1",
@@ -1749,9 +1667,7 @@
       },
       "fairings": null
     },
-    "ships": [
-      "AMERICANISLANDER"
-    ],
+    "ships": ["AMERICANISLANDER"],
     "telemetry": {
       "flight_club": null
     },
@@ -1811,9 +1727,7 @@
   {
     "flight_number": 15,
     "mission_name": "OG-2 Mission 1",
-    "mission_id": [
-      "CE91D46"
-    ],
+    "mission_id": ["CE91D46"],
     "launch_year": "2014",
     "launch_date_unix": 1405350900,
     "launch_date_utc": "2014-07-14T15:15:00.000Z",
@@ -1847,13 +1761,9 @@
         "payloads": [
           {
             "payload_id": "Orbcomm-OG2-M1",
-            "norad_id": [
-              38847
-            ],
+            "norad_id": [38847],
             "reused": false,
-            "customers": [
-              "Orbcomm"
-            ],
+            "customers": ["Orbcomm"],
             "nationality": "United States",
             "manufacturer": "Boeing",
             "payload_type": "Satellite",
@@ -1946,9 +1856,7 @@
   {
     "flight_number": 16,
     "mission_name": "AsiaSat 8",
-    "mission_id": [
-      "593B499"
-    ],
+    "mission_id": ["593B499"],
     "launch_year": "2014",
     "launch_date_unix": 1407225600,
     "launch_date_utc": "2014-08-05T08:00:00.000Z",
@@ -1982,13 +1890,9 @@
         "payloads": [
           {
             "payload_id": "AsiaSat 8",
-            "norad_id": [
-              40107
-            ],
+            "norad_id": [40107],
             "reused": false,
-            "customers": [
-              "AsiaSat"
-            ],
+            "customers": ["AsiaSat"],
             "nationality": "Hong Kong",
             "manufacturer": "SSL",
             "payload_type": "Satellite",
@@ -2082,9 +1986,7 @@
   {
     "flight_number": 17,
     "mission_name": "AsiaSat 6",
-    "mission_id": [
-      "593B499"
-    ],
+    "mission_id": ["593B499"],
     "launch_year": "2014",
     "launch_date_unix": 1410066000,
     "launch_date_utc": "2014-09-07T05:00:00.000Z",
@@ -2118,13 +2020,9 @@
         "payloads": [
           {
             "payload_id": "AsiaSat 6",
-            "norad_id": [
-              40141
-            ],
+            "norad_id": [40141],
             "reused": false,
-            "customers": [
-              "AsiaSat"
-            ],
+            "customers": ["AsiaSat"],
             "nationality": "Hong Kong",
             "manufacturer": "SSL",
             "payload_type": "Satellite",
@@ -2217,9 +2115,7 @@
   {
     "flight_number": 18,
     "mission_name": "CRS-4",
-    "mission_id": [
-      "EE86F74"
-    ],
+    "mission_id": ["EE86F74"],
     "launch_year": "2014",
     "launch_date_unix": 1411278720,
     "launch_date_utc": "2014-09-21T05:52:00.000Z",
@@ -2253,14 +2149,10 @@
         "payloads": [
           {
             "payload_id": "CRS-4",
-            "norad_id": [
-              40210
-            ],
+            "norad_id": [40210],
             "cap_serial": "C106",
             "reused": false,
-            "customers": [
-              "NASA (CRS)"
-            ],
+            "customers": ["NASA (CRS)"],
             "nationality": "United States",
             "manufacturer": "SpaceX",
             "payload_type": "Dragon 1.1",
@@ -2293,9 +2185,7 @@
       },
       "fairings": null
     },
-    "ships": [
-      "AMERICANISLANDER"
-    ],
+    "ships": ["AMERICANISLANDER"],
     "telemetry": {
       "flight_club": null
     },
@@ -2354,9 +2244,7 @@
   {
     "flight_number": 19,
     "mission_name": "CRS-5",
-    "mission_id": [
-      "EE86F74"
-    ],
+    "mission_id": ["EE86F74"],
     "launch_year": "2015",
     "launch_date_unix": 1420883220,
     "launch_date_utc": "2015-01-10T09:47:00.000Z",
@@ -2390,14 +2278,10 @@
         "payloads": [
           {
             "payload_id": "CRS-5",
-            "norad_id": [
-              40370
-            ],
+            "norad_id": [40370],
             "cap_serial": "C107",
             "reused": false,
-            "customers": [
-              "NASA (CRS)"
-            ],
+            "customers": ["NASA (CRS)"],
             "nationality": "United States",
             "manufacturer": "SpaceX",
             "payload_type": "Dragon 1.1",
@@ -2430,13 +2314,7 @@
       },
       "fairings": null
     },
-    "ships": [
-      "ELSBETH3",
-      "GOQUEST",
-      "GOSEARCHER",
-      "JRTI-1",
-      "NRCQUEST"
-    ],
+    "ships": ["ELSBETH3", "GOQUEST", "GOSEARCHER", "JRTI-1", "NRCQUEST"],
     "telemetry": {
       "flight_club": null
     },
@@ -2532,15 +2410,9 @@
         "payloads": [
           {
             "payload_id": "DSCOVR",
-            "norad_id": [
-              40390
-            ],
+            "norad_id": [40390],
             "reused": false,
-            "customers": [
-              "NASA",
-              "NOAA",
-              "USAF"
-            ],
+            "customers": ["NASA", "NOAA", "USAF"],
             "nationality": "United States",
             "manufacturer": "Sierra Nevada",
             "payload_type": "Satellite",
@@ -2574,11 +2446,7 @@
         "ship": null
       }
     },
-    "ships": [
-      "ELSBETH3",
-      "GOQUEST",
-      "GOSEARCHER"
-    ],
+    "ships": ["ELSBETH3", "GOQUEST", "GOSEARCHER"],
     "telemetry": {
       "flight_club": null
     },
@@ -2624,10 +2492,7 @@
   {
     "flight_number": 21,
     "mission_name": "ABS-3A / Eutelsat 115W B",
-    "mission_id": [
-      "2CF444A",
-      "F7709F2"
-    ],
+    "mission_id": ["2CF444A", "F7709F2"],
     "launch_year": "2015",
     "launch_date_unix": 1425268200,
     "launch_date_utc": "2015-03-02T03:50:00.000Z",
@@ -2661,13 +2526,9 @@
         "payloads": [
           {
             "payload_id": "ABS-3A",
-            "norad_id": [
-              40424
-            ],
+            "norad_id": [40424],
             "reused": false,
-            "customers": [
-              "ABS"
-            ],
+            "customers": ["ABS"],
             "nationality": "Hong Kong",
             "manufacturer": "Boeing",
             "payload_type": "Satellite",
@@ -2694,13 +2555,9 @@
           },
           {
             "payload_id": "Eutelsat 115 West B",
-            "norad_id": [
-              40425
-            ],
+            "norad_id": [40425],
             "reused": false,
-            "customers": [
-              "Eutelsat"
-            ],
+            "customers": ["Eutelsat"],
             "nationality": "France",
             "manufacturer": "Boeing",
             "payload_type": "Satellite",
@@ -2795,9 +2652,7 @@
   {
     "flight_number": 22,
     "mission_name": "CRS-6",
-    "mission_id": [
-      "EE86F74"
-    ],
+    "mission_id": ["EE86F74"],
     "launch_year": "2015",
     "launch_date_unix": 1429042200,
     "launch_date_utc": "2015-04-14T20:10:00.000Z",
@@ -2831,14 +2686,10 @@
         "payloads": [
           {
             "payload_id": "CRS-6",
-            "norad_id": [
-              40588
-            ],
+            "norad_id": [40588],
             "reused": false,
             "cap_serial": "C108",
-            "customers": [
-              "NASA (CRS)"
-            ],
+            "customers": ["NASA (CRS)"],
             "nationality": "United States",
             "manufacturer": "SpaceX",
             "payload_type": "Dragon 1.1",
@@ -2871,13 +2722,7 @@
       },
       "fairings": null
     },
-    "ships": [
-      "ELSBETH3",
-      "GOQUEST",
-      "GOSEARCHER",
-      "JRTI-1",
-      "NRCQUEST"
-    ],
+    "ships": ["ELSBETH3", "GOQUEST", "GOSEARCHER", "JRTI-1", "NRCQUEST"],
     "telemetry": {
       "flight_club": null
     },
@@ -2970,13 +2815,9 @@
         "payloads": [
           {
             "payload_id": "TürkmenÄlem 52°E / MonacoSAT",
-            "norad_id": [
-              40617
-            ],
+            "norad_id": [40617],
             "reused": false,
-            "customers": [
-              "Turkmenistan National Space Agency"
-            ],
+            "customers": ["Turkmenistan National Space Agency"],
             "nationality": "Turkmenistan",
             "manufacturer": "Thales Alenia Space",
             "payload_type": "Satellite",
@@ -3070,9 +2911,7 @@
   {
     "flight_number": 24,
     "mission_name": "CRS-7",
-    "mission_id": [
-      "EE86F74"
-    ],
+    "mission_id": ["EE86F74"],
     "launch_year": "2015",
     "launch_date_unix": 1435501260,
     "launch_date_utc": "2015-06-28T14:21:00.000Z",
@@ -3109,9 +2948,7 @@
             "norad_id": [],
             "reused": false,
             "cap_serial": "C109",
-            "customers": [
-              "NASA (CRS)"
-            ],
+            "customers": ["NASA (CRS)"],
             "nationality": "United States",
             "manufacturer": "SpaceX",
             "payload_type": "Dragon 1.1",
@@ -3144,11 +2981,7 @@
       },
       "fairings": null
     },
-    "ships": [
-      "ELSBETH3",
-      "GOQUEST",
-      "GOSEARCHER"
-    ],
+    "ships": ["ELSBETH3", "GOQUEST", "GOSEARCHER"],
     "telemetry": {
       "flight_club": null
     },
@@ -3209,9 +3042,7 @@
   {
     "flight_number": 25,
     "mission_name": "OG-2 Mission 2",
-    "mission_id": [
-      "CE91D46"
-    ],
+    "mission_id": ["CE91D46"],
     "launch_year": "2015",
     "launch_date_unix": 1450747740,
     "launch_date_utc": "2015-12-22T01:29:00.000Z",
@@ -3245,13 +3076,9 @@
         "payloads": [
           {
             "payload_id": "Orbcomm-OG2-M2",
-            "norad_id": [
-              41187
-            ],
+            "norad_id": [41187],
             "reused": false,
-            "customers": [
-              "Orbcomm"
-            ],
+            "customers": ["Orbcomm"],
             "nationality": "United States",
             "manufacturer": "Boeing",
             "payload_type": "Satellite",
@@ -3383,14 +3210,9 @@
         "payloads": [
           {
             "payload_id": "Jason-3",
-            "norad_id": [
-              41240
-            ],
+            "norad_id": [41240],
             "reused": false,
-            "customers": [
-              "NASA",
-              "NOAA"
-            ],
+            "customers": ["NASA", "NOAA"],
             "nationality": "United States",
             "manufacturer": "Thales Alenia Space",
             "payload_type": "Satellite",
@@ -3424,11 +3246,7 @@
         "ship": null
       }
     },
-    "ships": [
-      "JRTI-2",
-      "NRCQUEST",
-      "PACIFICFREEDOM"
-    ],
+    "ships": ["JRTI-2", "NRCQUEST", "PACIFICFREEDOM"],
     "telemetry": {
       "flight_club": "https://www.flightclub.io/results/?code=JSN3"
     },
@@ -3491,9 +3309,7 @@
   {
     "flight_number": 27,
     "mission_name": "SES-9",
-    "mission_id": [
-      "6C42550"
-    ],
+    "mission_id": ["6C42550"],
     "launch_year": "2016",
     "launch_date_unix": 1457134500,
     "launch_date_utc": "2016-03-04T23:35:00.000Z",
@@ -3527,13 +3343,9 @@
         "payloads": [
           {
             "payload_id": "SES-9",
-            "norad_id": [
-              41380
-            ],
+            "norad_id": [41380],
             "reused": false,
-            "customers": [
-              "SES"
-            ],
+            "customers": ["SES"],
             "nationality": "Luxembourg",
             "manufacturer": "Boeing",
             "payload_type": "Satellite",
@@ -3567,12 +3379,7 @@
         "ship": null
       }
     },
-    "ships": [
-      "ELSBETH3",
-      "GOQUEST",
-      "GOSEARCHER",
-      "OCISLY"
-    ],
+    "ships": ["ELSBETH3", "GOQUEST", "GOSEARCHER", "OCISLY"],
     "telemetry": {
       "flight_club": "https://www.flightclub.io/results/?code=SES9"
     },
@@ -3639,9 +3446,7 @@
   {
     "flight_number": 28,
     "mission_name": "CRS-8",
-    "mission_id": [
-      "EE86F74"
-    ],
+    "mission_id": ["EE86F74"],
     "launch_year": "2016",
     "launch_date_unix": 1460148180,
     "launch_date_utc": "2016-04-08T20:43:00.000Z",
@@ -3675,14 +3480,10 @@
         "payloads": [
           {
             "payload_id": "CRS-8",
-            "norad_id": [
-              41452
-            ],
+            "norad_id": [41452],
             "cap_serial": "C110",
             "reused": false,
-            "customers": [
-              "NASA (CRS)"
-            ],
+            "customers": ["NASA (CRS)"],
             "nationality": "United States",
             "manufacturer": "SpaceX",
             "payload_type": "Dragon 1.1",
@@ -3715,13 +3516,7 @@
       },
       "fairings": null
     },
-    "ships": [
-      "ELSBETH3",
-      "GOQUEST",
-      "GOSEARCHER",
-      "NRCQUEST",
-      "OCISLY"
-    ],
+    "ships": ["ELSBETH3", "GOQUEST", "GOSEARCHER", "NRCQUEST", "OCISLY"],
     "telemetry": {
       "flight_club": "https://www.flightclub.io/results/?code=CRS8"
     },
@@ -3789,9 +3584,7 @@
   {
     "flight_number": 29,
     "mission_name": "JCSAT-2B",
-    "mission_id": [
-      "FE3533D"
-    ],
+    "mission_id": ["FE3533D"],
     "launch_year": "2016",
     "launch_date_unix": 1462512060,
     "launch_date_utc": "2016-05-06T05:21:00.000Z",
@@ -3825,13 +3618,9 @@
         "payloads": [
           {
             "payload_id": "JCSAT-2B",
-            "norad_id": [
-              41471
-            ],
+            "norad_id": [41471],
             "reused": false,
-            "customers": [
-              "SKY Perfect JSAT Group"
-            ],
+            "customers": ["SKY Perfect JSAT Group"],
             "nationality": "Japan",
             "manufacturer": "SSL",
             "payload_type": "Satellite",
@@ -3865,11 +3654,7 @@
         "ship": null
       }
     },
-    "ships": [
-      "ELSBETH3",
-      "GOQUEST",
-      "GOSEARCHER"
-    ],
+    "ships": ["ELSBETH3", "GOQUEST", "GOSEARCHER"],
     "telemetry": {
       "flight_club": "https://www.flightclub.io/results/?code=JC14"
     },
@@ -3933,9 +3718,7 @@
   {
     "flight_number": 30,
     "mission_name": "Thaicom 8",
-    "mission_id": [
-      "9D1B7E0"
-    ],
+    "mission_id": ["9D1B7E0"],
     "launch_year": "2016",
     "launch_date_unix": 1464385140,
     "launch_date_utc": "2016-05-27T21:39:00.000Z",
@@ -3969,13 +3752,9 @@
         "payloads": [
           {
             "payload_id": "Thaicom 8",
-            "norad_id": [
-              41552
-            ],
+            "norad_id": [41552],
             "reused": false,
-            "customers": [
-              "Thaicom"
-            ],
+            "customers": ["Thaicom"],
             "nationality": "Thailand",
             "manufacturer": "Orbital ATK",
             "payload_type": "Satellite",
@@ -4009,12 +3788,7 @@
         "ship": null
       }
     },
-    "ships": [
-      "ELSBETH3",
-      "GOQUEST",
-      "GOSEARCHER",
-      "OCISLY"
-    ],
+    "ships": ["ELSBETH3", "GOQUEST", "GOSEARCHER", "OCISLY"],
     "telemetry": {
       "flight_club": "https://www.flightclub.io/results/?code=THM8"
     },
@@ -4082,10 +3856,7 @@
   {
     "flight_number": 31,
     "mission_name": "ABS-2A / Eutelsat 117W B",
-    "mission_id": [
-      "2CF444A",
-      "F7709F2"
-    ],
+    "mission_id": ["2CF444A", "F7709F2"],
     "launch_year": "2016",
     "launch_date_unix": 1466000940,
     "launch_date_utc": "2016-06-15T14:29:00.000Z",
@@ -4119,13 +3890,9 @@
         "payloads": [
           {
             "payload_id": "ABS-2A",
-            "norad_id": [
-              41588
-            ],
+            "norad_id": [41588],
             "reused": false,
-            "customers": [
-              "ABS"
-            ],
+            "customers": ["ABS"],
             "nationality": "Hong Kong",
             "manufacturer": "Boeing",
             "payload_type": "Satellite",
@@ -4152,13 +3919,9 @@
           },
           {
             "payload_id": "Eutelsat 117 West B",
-            "norad_id": [
-              40425
-            ],
+            "norad_id": [40425],
             "reused": false,
-            "customers": [
-              "Eutelsat"
-            ],
+            "customers": ["Eutelsat"],
             "nationality": "France",
             "manufacturer": "Boeing",
             "payload_type": "Satellite",
@@ -4190,12 +3953,7 @@
         "ship": null
       }
     },
-    "ships": [
-      "ELSBETH3",
-      "GOQUEST",
-      "GOSEARCHER",
-      "OCISLY"
-    ],
+    "ships": ["ELSBETH3", "GOQUEST", "GOSEARCHER", "OCISLY"],
     "telemetry": {
       "flight_club": "https://www.flightclub.io/results/?code=EUA2"
     },
@@ -4260,9 +4018,7 @@
   {
     "flight_number": 32,
     "mission_name": "CRS-9",
-    "mission_id": [
-      "EE86F74"
-    ],
+    "mission_id": ["EE86F74"],
     "launch_year": "2016",
     "launch_date_unix": 1468817100,
     "launch_date_utc": "2016-07-18T04:45:00.000Z",
@@ -4296,14 +4052,10 @@
         "payloads": [
           {
             "payload_id": "CRS-9",
-            "norad_id": [
-              41672
-            ],
+            "norad_id": [41672],
             "cap_serial": "C111",
             "reused": false,
-            "customers": [
-              "NASA (CRS)"
-            ],
+            "customers": ["NASA (CRS)"],
             "nationality": "United States",
             "manufacturer": "SpaceX",
             "payload_type": "Dragon 1.1",
@@ -4336,12 +4088,7 @@
       },
       "fairings": null
     },
-    "ships": [
-      "ELSBETH3",
-      "GOQUEST",
-      "GOSEARCHER",
-      "NRCQUEST"
-    ],
+    "ships": ["ELSBETH3", "GOQUEST", "GOSEARCHER", "NRCQUEST"],
     "telemetry": {
       "flight_club": "https://www.flightclub.io/results/?code=CRS9"
     },
@@ -4411,9 +4158,7 @@
   {
     "flight_number": 33,
     "mission_name": "JCSAT-16",
-    "mission_id": [
-      "FE3533D"
-    ],
+    "mission_id": ["FE3533D"],
     "launch_year": "2016",
     "launch_date_unix": 1471152360,
     "launch_date_utc": "2016-08-14T05:26:00.000Z",
@@ -4447,13 +4192,9 @@
         "payloads": [
           {
             "payload_id": "JCSAT-16",
-            "norad_id": [
-              41729
-            ],
+            "norad_id": [41729],
             "reused": false,
-            "customers": [
-              "SKY Perfect JCSAT Group"
-            ],
+            "customers": ["SKY Perfect JCSAT Group"],
             "nationality": "Japan",
             "manufacturer": "SSL",
             "payload_type": "Satellite",
@@ -4487,12 +4228,7 @@
         "ship": null
       }
     },
-    "ships": [
-      "ELSBETH3",
-      "GOQUEST",
-      "GOSEARCHER",
-      "OCISLY"
-    ],
+    "ships": ["ELSBETH3", "GOQUEST", "GOSEARCHER", "OCISLY"],
     "telemetry": {
       "flight_club": "https://www.flightclub.io/results/?code=JC16"
     },
@@ -4589,9 +4325,7 @@
             "payload_id": "Amos-6",
             "norad_id": [],
             "reused": false,
-            "customers": [
-              "Spacecom"
-            ],
+            "customers": ["Spacecom"],
             "nationality": "Israel",
             "manufacturer": "Israel Aerospace Industries",
             "payload_type": "Satellite",
@@ -4663,9 +4397,7 @@
   {
     "flight_number": 35,
     "mission_name": "Iridium NEXT Mission 1",
-    "mission_id": [
-      "F3364BF"
-    ],
+    "mission_id": ["F3364BF"],
     "launch_year": "2017",
     "launch_date_unix": 1484416440,
     "launch_date_utc": "2017-01-14T17:54:00.000Z",
@@ -4700,21 +4432,11 @@
           {
             "payload_id": "Iridium NEXT 1",
             "norad_id": [
-              41917,
-              41918,
-              41919,
-              41920,
-              41921,
-              41922,
-              41923,
-              41924,
-              41925,
+              41917, 41918, 41919, 41920, 41921, 41922, 41923, 41924, 41925,
               41926
             ],
             "reused": false,
-            "customers": [
-              "Iridium Communications"
-            ],
+            "customers": ["Iridium Communications"],
             "nationality": "United States",
             "manufacturer": "Thales Alenia Space",
             "payload_type": "Satellite",
@@ -4748,11 +4470,7 @@
         "ship": null
       }
     },
-    "ships": [
-      "JRTI-2",
-      "NRCQUEST",
-      "PACIFICWARRIOR"
-    ],
+    "ships": ["JRTI-2", "NRCQUEST", "PACIFICWARRIOR"],
     "telemetry": {
       "flight_club": "https://www.flightclub.io/results/?code=IRD1"
     },
@@ -4824,9 +4542,7 @@
   {
     "flight_number": 36,
     "mission_name": "CRS-10",
-    "mission_id": [
-      "EE86F74"
-    ],
+    "mission_id": ["EE86F74"],
     "launch_year": "2017",
     "launch_date_unix": 1487515140,
     "launch_date_utc": "2017-02-19T14:39:00.000Z",
@@ -4860,14 +4576,10 @@
         "payloads": [
           {
             "payload_id": "CRS-10",
-            "norad_id": [
-              42053
-            ],
+            "norad_id": [42053],
             "cap_serial": "C112",
             "reused": false,
-            "customers": [
-              "NASA (CRS)"
-            ],
+            "customers": ["NASA (CRS)"],
             "nationality": "United States",
             "manufacturer": "SpaceX",
             "payload_type": "Dragon 1.1",
@@ -4900,9 +4612,7 @@
       },
       "fairings": null
     },
-    "ships": [
-      "NRCQUEST"
-    ],
+    "ships": ["NRCQUEST"],
     "telemetry": {
       "flight_club": "https://www.flightclub.io/results/?code=CR10"
     },
@@ -5008,13 +4718,9 @@
         "payloads": [
           {
             "payload_id": "EchoStar 23",
-            "norad_id": [
-              42070
-            ],
+            "norad_id": [42070],
             "reused": false,
-            "customers": [
-              "EchoStar"
-            ],
+            "customers": ["EchoStar"],
             "nationality": "United States",
             "manufacturer": "Airbus Defence and Space",
             "payload_type": "Satellite",
@@ -5110,9 +4816,7 @@
   {
     "flight_number": 38,
     "mission_name": "SES-10",
-    "mission_id": [
-      "6C42550"
-    ],
+    "mission_id": ["6C42550"],
     "launch_year": "2017",
     "launch_date_unix": 1490912820,
     "launch_date_utc": "2017-03-30T22:27:00.000Z",
@@ -5146,13 +4850,9 @@
         "payloads": [
           {
             "payload_id": "SES-10",
-            "norad_id": [
-              42432
-            ],
+            "norad_id": [42432],
             "reused": false,
-            "customers": [
-              "SES"
-            ],
+            "customers": ["SES"],
             "nationality": "Luxembourg",
             "manufacturer": "Airbus Defence and Space",
             "payload_type": "Satellite",
@@ -5186,12 +4886,7 @@
         "ship": null
       }
     },
-    "ships": [
-      "ELSBETH3",
-      "GOQUEST",
-      "GOSEARCHER",
-      "OCISLY"
-    ],
+    "ships": ["ELSBETH3", "GOQUEST", "GOSEARCHER", "OCISLY"],
     "telemetry": {
       "flight_club": "https://www.flightclub.io/results/?code=SS10"
     },
@@ -5299,9 +4994,7 @@
             "payload_id": "NROL-76",
             "norad_id": [],
             "reused": false,
-            "customers": [
-              "NRO"
-            ],
+            "customers": ["NRO"],
             "nationality": "United States",
             "manufacturer": "Boeing",
             "payload_type": "Satellite",
@@ -5335,9 +5028,7 @@
         "ship": null
       }
     },
-    "ships": [
-      "GOSEARCHER"
-    ],
+    "ships": ["GOSEARCHER"],
     "telemetry": {
       "flight_club": null
     },
@@ -5435,13 +5126,9 @@
         "payloads": [
           {
             "payload_id": "Inmarsat-5 F4",
-            "norad_id": [
-              42698
-            ],
+            "norad_id": [42698],
             "reused": false,
-            "customers": [
-              "Inmarsat"
-            ],
+            "customers": ["Inmarsat"],
             "nationality": "United Kingdom",
             "manufacturer": "Boeing",
             "payload_type": "Satellite",
@@ -5537,9 +5224,7 @@
   {
     "flight_number": 41,
     "mission_name": "CRS-11",
-    "mission_id": [
-      "EE86F74"
-    ],
+    "mission_id": ["EE86F74"],
     "launch_year": "2017",
     "launch_date_unix": 1496524020,
     "launch_date_utc": "2017-06-03T21:07:00.000Z",
@@ -5573,14 +5258,10 @@
         "payloads": [
           {
             "payload_id": "CRS-11",
-            "norad_id": [
-              42744
-            ],
+            "norad_id": [42744],
             "cap_serial": "C106",
             "reused": true,
-            "customers": [
-              "NASA (CRS)"
-            ],
+            "customers": ["NASA (CRS)"],
             "nationality": "United States",
             "manufacturer": "SpaceX",
             "payload_type": "Dragon 1.1",
@@ -5613,9 +5294,7 @@
       },
       "fairings": null
     },
-    "ships": [
-      "NRCQUEST"
-    ],
+    "ships": ["NRCQUEST"],
     "telemetry": {
       "flight_club": "https://www.flightclub.io/results/?code=CR11"
     },
@@ -5717,13 +5396,9 @@
         "payloads": [
           {
             "payload_id": "BulgariaSat-1",
-            "norad_id": [
-              42801
-            ],
+            "norad_id": [42801],
             "reused": false,
-            "customers": [
-              "Bulgaria Sat"
-            ],
+            "customers": ["Bulgaria Sat"],
             "nationality": "Bulgaria",
             "manufacturer": "SSL",
             "payload_type": "Satellite",
@@ -5757,12 +5432,7 @@
         "ship": null
       }
     },
-    "ships": [
-      "ELSBETH3",
-      "GOQUEST",
-      "GOSEARCHER",
-      "OCISLY"
-    ],
+    "ships": ["ELSBETH3", "GOQUEST", "GOSEARCHER", "OCISLY"],
     "telemetry": {
       "flight_club": "https://www.flightclub.io/results/?code=BGS1"
     },
@@ -5826,9 +5496,7 @@
   {
     "flight_number": 43,
     "mission_name": "Iridium NEXT Mission 2",
-    "mission_id": [
-      "F3364BF"
-    ],
+    "mission_id": ["F3364BF"],
     "launch_year": "2017",
     "launch_date_unix": 1498422300,
     "launch_date_utc": "2017-06-25T20:25:00.000Z",
@@ -5863,21 +5531,11 @@
           {
             "payload_id": "Iridium NEXT 2",
             "norad_id": [
-              42803,
-              42804,
-              42805,
-              42806,
-              42807,
-              42808,
-              42809,
-              42805,
-              42810,
+              42803, 42804, 42805, 42806, 42807, 42808, 42809, 42805, 42810,
               42811
             ],
             "reused": false,
-            "customers": [
-              "Iridium Communications"
-            ],
+            "customers": ["Iridium Communications"],
             "nationality": "United States",
             "manufacturer": "Thales Alenia Space",
             "payload_type": "Satellite",
@@ -5911,11 +5569,7 @@
         "ship": null
       }
     },
-    "ships": [
-      "JRTI-2",
-      "KELLYC",
-      "NRCQUEST"
-    ],
+    "ships": ["JRTI-2", "KELLYC", "NRCQUEST"],
     "telemetry": {
       "flight_club": "https://www.flightclub.io/results/?code=IRD2"
     },
@@ -6014,13 +5668,9 @@
         "payloads": [
           {
             "payload_id": "Intelsat 35e",
-            "norad_id": [
-              42818
-            ],
+            "norad_id": [42818],
             "reused": false,
-            "customers": [
-              "Intelsat"
-            ],
+            "customers": ["Intelsat"],
             "nationality": "United States",
             "manufacturer": "Boeing",
             "payload_type": "Satellite",
@@ -6116,9 +5766,7 @@
   {
     "flight_number": 45,
     "mission_name": "CRS-12",
-    "mission_id": [
-      "EE86F74"
-    ],
+    "mission_id": ["EE86F74"],
     "launch_year": "2017",
     "launch_date_unix": 1502728260,
     "launch_date_utc": "2017-08-14T16:31:00.000Z",
@@ -6152,14 +5800,10 @@
         "payloads": [
           {
             "payload_id": "CRS-12",
-            "norad_id": [
-              42904
-            ],
+            "norad_id": [42904],
             "reused": false,
             "cap_serial": "C113",
-            "customers": [
-              "NASA (CRS)"
-            ],
+            "customers": ["NASA (CRS)"],
             "nationality": "United States",
             "manufacturer": "SpaceX",
             "payload_type": "Dragon 1.1",
@@ -6192,9 +5836,7 @@
       },
       "fairings": null
     },
-    "ships": [
-      "NRCQUEST"
-    ],
+    "ships": ["NRCQUEST"],
     "telemetry": {
       "flight_club": "https://www.flightclub.io/results/?code=CR12"
     },
@@ -6294,13 +5936,9 @@
         "payloads": [
           {
             "payload_id": "FormoSat-5",
-            "norad_id": [
-              42920
-            ],
+            "norad_id": [42920],
             "reused": false,
-            "customers": [
-              "NSPO (Taiwan)"
-            ],
+            "customers": ["NSPO (Taiwan)"],
             "nationality": "Taiwan",
             "manufacturer": "NSPO",
             "payload_type": "Satellite",
@@ -6334,10 +5972,7 @@
         "ship": null
       }
     },
-    "ships": [
-      "BETTYRGAMBARELLA",
-      "JRTI-2"
-    ],
+    "ships": ["BETTYRGAMBARELLA", "JRTI-2"],
     "telemetry": {
       "flight_club": "https://www.flightclub.io/results/?code=FRM5"
     },
@@ -6435,9 +6070,7 @@
             "payload_id": "X-37B OTV-5",
             "norad_id": [],
             "reused": false,
-            "customers": [
-              "USAF"
-            ],
+            "customers": ["USAF"],
             "nationality": "United States",
             "manufacturer": "Boeing Defense",
             "payload_type": "Satellite",
@@ -6471,10 +6104,7 @@
         "ship": null
       }
     },
-    "ships": [
-      "ELSBETH3",
-      "GOQUEST"
-    ],
+    "ships": ["ELSBETH3", "GOQUEST"],
     "telemetry": {
       "flight_club": "https://www.flightclub.io/results/?code=OTV5"
     },
@@ -6535,9 +6165,7 @@
   {
     "flight_number": 48,
     "mission_name": "Iridium NEXT Mission 3",
-    "mission_id": [
-      "F3364BF"
-    ],
+    "mission_id": ["F3364BF"],
     "launch_year": "2017",
     "launch_date_unix": 1507552620,
     "launch_date_utc": "2017-10-09T12:37:00.000Z",
@@ -6572,21 +6200,11 @@
           {
             "payload_id": "Iridium NEXT 3",
             "norad_id": [
-              42955,
-              42956,
-              42957,
-              42958,
-              42959,
-              42960,
-              42961,
-              42962,
-              42963,
+              42955, 42956, 42957, 42958, 42959, 42960, 42961, 42962, 42963,
               42964
             ],
             "reused": false,
-            "customers": [
-              "Iridium Communications"
-            ],
+            "customers": ["Iridium Communications"],
             "nationality": "United States",
             "manufacturer": "Thales Alenia Space",
             "payload_type": "Satellite",
@@ -6620,10 +6238,7 @@
         "ship": null
       }
     },
-    "ships": [
-      "BETTYRGAMBARELLA",
-      "JRTI-2"
-    ],
+    "ships": ["BETTYRGAMBARELLA", "JRTI-2"],
     "telemetry": {
       "flight_club": "https://www.flightclub.io/results/?code=IRD3"
     },
@@ -6688,9 +6303,7 @@
   {
     "flight_number": 49,
     "mission_name": "SES-11 / Echostar 105",
-    "mission_id": [
-      "6C42550"
-    ],
+    "mission_id": ["6C42550"],
     "launch_year": "2017",
     "launch_date_unix": 1507762380,
     "launch_date_utc": "2017-10-11T22:53:00.000Z",
@@ -6724,14 +6337,9 @@
         "payloads": [
           {
             "payload_id": "SES-11 / Echostar 105",
-            "norad_id": [
-              42967
-            ],
+            "norad_id": [42967],
             "reused": false,
-            "customers": [
-              "SES",
-              "Echostar"
-            ],
+            "customers": ["SES", "Echostar"],
             "nationality": "United States",
             "manufacturer": "Airbus Defence and Space",
             "payload_type": "Satellite",
@@ -6765,11 +6373,7 @@
         "ship": null
       }
     },
-    "ships": [
-      "GOQUEST",
-      "HAWK",
-      "OCISLY"
-    ],
+    "ships": ["GOQUEST", "HAWK", "OCISLY"],
     "telemetry": {
       "flight_club": "https://www.flightclub.io/results/?code=SS11"
     },
@@ -6867,13 +6471,9 @@
         "payloads": [
           {
             "payload_id": "KoreaSat 5A",
-            "norad_id": [
-              42984
-            ],
+            "norad_id": [42984],
             "reused": false,
-            "customers": [
-              "KT Corporation"
-            ],
+            "customers": ["KT Corporation"],
             "nationality": "South Korea",
             "manufacturer": "Thales Alenia Space",
             "payload_type": "Satellite",
@@ -6907,11 +6507,7 @@
         "ship": "MR STEVEN"
       }
     },
-    "ships": [
-      "HAWK",
-      "MRSTEVEN",
-      "OCISLY"
-    ],
+    "ships": ["HAWK", "MRSTEVEN", "OCISLY"],
     "telemetry": {
       "flight_club": null
     },
@@ -6974,9 +6570,7 @@
   {
     "flight_number": 51,
     "mission_name": "CRS-13",
-    "mission_id": [
-      "EE86F74"
-    ],
+    "mission_id": ["EE86F74"],
     "launch_year": "2017",
     "launch_date_unix": 1513352160,
     "launch_date_utc": "2017-12-15T15:36:00.000Z",
@@ -7010,14 +6604,10 @@
         "payloads": [
           {
             "payload_id": "CRS-13",
-            "norad_id": [
-              43060
-            ],
+            "norad_id": [43060],
             "cap_serial": "C108",
             "reused": true,
-            "customers": [
-              "NASA (CRS)"
-            ],
+            "customers": ["NASA (CRS)"],
             "nationality": "United States",
             "manufacturer": "SpaceX",
             "payload_type": "Dragon 1.1",
@@ -7050,9 +6640,7 @@
       },
       "fairings": null
     },
-    "ships": [
-      "NRCQUEST"
-    ],
+    "ships": ["NRCQUEST"],
     "telemetry": {
       "flight_club": "https://www.flightclub.io/results/?code=CR13"
     },
@@ -7115,9 +6703,7 @@
   {
     "flight_number": 52,
     "mission_name": "Iridium NEXT Mission 4",
-    "mission_id": [
-      "F3364BF"
-    ],
+    "mission_id": ["F3364BF"],
     "launch_year": "2017",
     "launch_date_unix": 1513992443,
     "launch_date_utc": "2017-12-23T01:27:23.000Z",
@@ -7152,21 +6738,11 @@
           {
             "payload_id": "Iridium NEXT 4",
             "norad_id": [
-              43070,
-              43071,
-              43072,
-              43073,
-              43074,
-              43075,
-              43076,
-              43077,
-              43078,
+              43070, 43071, 43072, 43073, 43074, 43075, 43076, 43077, 43078,
               43079
             ],
             "reused": false,
-            "customers": [
-              "Iridium Communications"
-            ],
+            "customers": ["Iridium Communications"],
             "nationality": "United States",
             "manufacturer": "Thales Alenia Space",
             "payload_type": "Satellite",
@@ -7200,9 +6776,7 @@
         "ship": null
       }
     },
-    "ships": [
-      "MRSTEVEN"
-    ],
+    "ships": ["MRSTEVEN"],
     "telemetry": {
       "flight_club": "https://www.flightclub.io/result?code=IRD4"
     },
@@ -7299,9 +6873,7 @@
             "payload_id": "ZUMA",
             "norad_id": [],
             "reused": false,
-            "customers": [
-              "Northrop Grumman"
-            ],
+            "customers": ["Northrop Grumman"],
             "nationality": "United States",
             "manufacturer": "Northrop Grumman",
             "payload_type": "Satellite",
@@ -7394,9 +6966,7 @@
   {
     "flight_number": 54,
     "mission_name": "SES-16 / GovSat-1",
-    "mission_id": [
-      "6C42550"
-    ],
+    "mission_id": ["6C42550"],
     "launch_year": "2018",
     "launch_date_unix": 1517433900,
     "launch_date_utc": "2018-01-31T21:25:00.000Z",
@@ -7430,13 +7000,9 @@
         "payloads": [
           {
             "payload_id": "GovSat-1",
-            "norad_id": [
-              43178
-            ],
+            "norad_id": [43178],
             "reused": false,
-            "customers": [
-              "GovSat"
-            ],
+            "customers": ["GovSat"],
             "nationality": "Luxembourg",
             "manufacturer": "Orbital ATK",
             "payload_type": "Satellite",
@@ -7470,9 +7036,7 @@
         "ship": null
       }
     },
-    "ships": [
-      "GOQUEST"
-    ],
+    "ships": ["GOQUEST"],
     "telemetry": {
       "flight_club": null
     },
@@ -7590,13 +7154,9 @@
         "payloads": [
           {
             "payload_id": "Tesla Roadster",
-            "norad_id": [
-              43205
-            ],
+            "norad_id": [43205],
             "reused": false,
-            "customers": [
-              "SpaceX"
-            ],
+            "customers": ["SpaceX"],
             "nationality": "United States",
             "manufacturer": "Tesla",
             "payload_type": "Satellite",
@@ -7630,11 +7190,7 @@
         "ship": null
       }
     },
-    "ships": [
-      "GOSEARCHER",
-      "HAWK",
-      "OCISLY"
-    ],
+    "ships": ["GOSEARCHER", "HAWK", "OCISLY"],
     "telemetry": {
       "flight_club": "https://www.flightclub.io/result?code=FHD1"
     },
@@ -7751,13 +7307,9 @@
         "payloads": [
           {
             "payload_id": "Paz",
-            "norad_id": [
-              43215
-            ],
+            "norad_id": [43215],
             "reused": false,
-            "customers": [
-              "HisdeSAT"
-            ],
+            "customers": ["HisdeSAT"],
             "nationality": "Spain",
             "manufacturer": "Airbus Defence and Space",
             "payload_type": "Satellite",
@@ -7784,14 +7336,9 @@
           },
           {
             "payload_id": "Tintin A & B",
-            "norad_id": [
-              43216,
-              43217
-            ],
+            "norad_id": [43216, 43217],
             "reused": false,
-            "customers": [
-              "SpaceX"
-            ],
+            "customers": ["SpaceX"],
             "nationality": "United States",
             "manufacturer": "SpaceX",
             "payload_type": "Satellite",
@@ -7825,9 +7372,7 @@
         "ship": "MR STEVEN"
       }
     },
-    "ships": [
-      "MRSTEVEN"
-    ],
+    "ships": ["MRSTEVEN"],
     "telemetry": {
       "flight_club": "https://www.flightclub.io/result?code=PAZ1"
     },
@@ -7919,13 +7464,9 @@
         "payloads": [
           {
             "payload_id": "Hispasat 30W-6",
-            "norad_id": [
-              43228
-            ],
+            "norad_id": [43228],
             "reused": false,
-            "customers": [
-              "Hispasat"
-            ],
+            "customers": ["Hispasat"],
             "nationality": "Spain",
             "manufacturer": "SSL",
             "payload_type": "Satellite",
@@ -8019,9 +7560,7 @@
   {
     "flight_number": 58,
     "mission_name": "Iridium NEXT Mission 5",
-    "mission_id": [
-      "F3364BF"
-    ],
+    "mission_id": ["F3364BF"],
     "launch_year": "2018",
     "launch_date_unix": 1522419231,
     "launch_date_utc": "2018-03-30T14:13:51.000Z",
@@ -8056,21 +7595,11 @@
           {
             "payload_id": "Iridium NEXT 5",
             "norad_id": [
-              43249,
-              43250,
-              43251,
-              43252,
-              43253,
-              43254,
-              43255,
-              43256,
-              43257,
+              43249, 43250, 43251, 43252, 43253, 43254, 43255, 43256, 43257,
               43258
             ],
             "reused": false,
-            "customers": [
-              "Iridium Communications"
-            ],
+            "customers": ["Iridium Communications"],
             "nationality": "United States",
             "manufacturer": "Thales Alenia Space",
             "payload_type": "Satellite",
@@ -8165,9 +7694,7 @@
   {
     "flight_number": 59,
     "mission_name": "CRS-14",
-    "mission_id": [
-      "EE86F74"
-    ],
+    "mission_id": ["EE86F74"],
     "launch_year": "2018",
     "launch_date_unix": 1522701041,
     "launch_date_utc": "2018-04-02T20:30:41.000Z",
@@ -8201,14 +7728,10 @@
         "payloads": [
           {
             "payload_id": "CRS-14",
-            "norad_id": [
-              43267
-            ],
+            "norad_id": [43267],
             "cap_serial": "C110",
             "reused": true,
-            "customers": [
-              "NASA (CRS)"
-            ],
+            "customers": ["NASA (CRS)"],
             "nationality": "United States",
             "manufacturer": "SpaceX",
             "payload_type": "Dragon 1.1",
@@ -8241,9 +7764,7 @@
       },
       "fairings": null
     },
-    "ships": [
-      "NRCQUEST"
-    ],
+    "ships": ["NRCQUEST"],
     "telemetry": {
       "flight_club": "https://www.flightclub.io/results/?code=CR14"
     },
@@ -8334,13 +7855,9 @@
         "payloads": [
           {
             "payload_id": "TESS",
-            "norad_id": [
-              43435
-            ],
+            "norad_id": [43435],
             "reused": false,
-            "customers": [
-              "NASA"
-            ],
+            "customers": ["NASA"],
             "nationality": "United States",
             "manufacturer": "Orbital ATK",
             "payload_type": "Satellite",
@@ -8374,12 +7891,7 @@
         "ship": null
       }
     },
-    "ships": [
-      "GOPURSUIT",
-      "GOQUEST",
-      "HAWK",
-      "OCISLY"
-    ],
+    "ships": ["GOPURSUIT", "GOQUEST", "HAWK", "OCISLY"],
     "telemetry": {
       "flight_club": "https://www.flightclub.io/results/?code=TESS"
     },
@@ -8475,13 +7987,9 @@
         "payloads": [
           {
             "payload_id": "Bangabandhu-1",
-            "norad_id": [
-              43463
-            ],
+            "norad_id": [43463],
             "reused": false,
-            "customers": [
-              "Bangladesh Gov"
-            ],
+            "customers": ["Bangladesh Gov"],
             "nationality": "Bangladesh",
             "manufacturer": "Thales Alenia Space",
             "payload_type": "Satellite",
@@ -8515,12 +8023,7 @@
         "ship": null
       }
     },
-    "ships": [
-      "GOPURSUIT",
-      "GOQUEST",
-      "OCISLY",
-      "RACHEL"
-    ],
+    "ships": ["GOPURSUIT", "GOQUEST", "OCISLY", "RACHEL"],
     "telemetry": {
       "flight_club": "https://www.flightclub.io/result?code=BNG1"
     },
@@ -8585,9 +8088,7 @@
   {
     "flight_number": 62,
     "mission_name": "Iridium NEXT Mission 6",
-    "mission_id": [
-      "F3364BF"
-    ],
+    "mission_id": ["F3364BF"],
     "launch_year": "2018",
     "launch_date_unix": 1527018478,
     "launch_date_utc": "2018-05-22T19:47:58.000Z",
@@ -8621,17 +8122,9 @@
         "payloads": [
           {
             "payload_id": "Iridium NEXT 6",
-            "norad_id": [
-              43478,
-              43479,
-              43480,
-              43481,
-              43482
-            ],
+            "norad_id": [43478, 43479, 43480, 43481, 43482],
             "reused": false,
-            "customers": [
-              "Iridium Communications"
-            ],
+            "customers": ["Iridium Communications"],
             "nationality": "United States",
             "manufacturer": "Thales Alenia Space",
             "payload_type": "Satellite",
@@ -8658,15 +8151,9 @@
           },
           {
             "payload_id": "GRACE-FO 1-2",
-            "norad_id": [
-              43476,
-              43477
-            ],
+            "norad_id": [43476, 43477],
             "reused": false,
-            "customers": [
-              "NASA",
-              "DLR"
-            ],
+            "customers": ["NASA", "DLR"],
             "payload_type": "Satellite",
             "payload_mass_kg": 1160,
             "payload_mass_lbs": 2557.4,
@@ -8698,9 +8185,7 @@
         "ship": "MR STEVEN"
       }
     },
-    "ships": [
-      "MRSTEVEN"
-    ],
+    "ships": ["MRSTEVEN"],
     "telemetry": {
       "flight_club": "https://www.flightclub.io/result?code=IRD6"
     },
@@ -8762,9 +8247,7 @@
   {
     "flight_number": 63,
     "mission_name": "SES-12",
-    "mission_id": [
-      "6C42550"
-    ],
+    "mission_id": ["6C42550"],
     "launch_year": "2018",
     "launch_date_unix": 1528087500,
     "launch_date_utc": "2018-06-04T04:45:00.000Z",
@@ -8798,13 +8281,9 @@
         "payloads": [
           {
             "payload_id": "SES-12",
-            "norad_id": [
-              43488
-            ],
+            "norad_id": [43488],
             "reused": false,
-            "customers": [
-              "SES"
-            ],
+            "customers": ["SES"],
             "nationality": "Luxembourg",
             "manufacturer": "Airbus Defence and Space",
             "payload_type": "Satellite",
@@ -8838,9 +8317,7 @@
         "ship": null
       }
     },
-    "ships": [
-      "GOPURSUIT"
-    ],
+    "ships": ["GOPURSUIT"],
     "telemetry": {
       "flight_club": "https://www.flightclub.io/result?code=SES12"
     },
@@ -8900,9 +8377,7 @@
   {
     "flight_number": 64,
     "mission_name": "CRS-15",
-    "mission_id": [
-      "EE86F74"
-    ],
+    "mission_id": ["EE86F74"],
     "launch_year": "2018",
     "launch_date_unix": 1530265320,
     "launch_date_utc": "2018-06-29T09:42:00.000Z",
@@ -8936,14 +8411,10 @@
         "payloads": [
           {
             "payload_id": "CRS-15",
-            "norad_id": [
-              43522
-            ],
+            "norad_id": [43522],
             "cap_serial": "C111",
             "reused": true,
-            "customers": [
-              "NASA (CRS)"
-            ],
+            "customers": ["NASA (CRS)"],
             "nationality": "United States",
             "manufacturer": "SpaceX",
             "payload_type": "Dragon 1.1",
@@ -8976,9 +8447,7 @@
       },
       "fairings": null
     },
-    "ships": [
-      "NRCQUEST"
-    ],
+    "ships": ["NRCQUEST"],
     "telemetry": {
       "flight_club": "https://www.flightclub.io/results/?code=CR15"
     },
@@ -9038,9 +8507,7 @@
   {
     "flight_number": 65,
     "mission_name": "Telstar 19V",
-    "mission_id": [
-      "F4F83DE"
-    ],
+    "mission_id": ["F4F83DE"],
     "launch_year": "2018",
     "launch_date_unix": 1532238600,
     "launch_date_utc": "2018-07-22T05:50:00.000Z",
@@ -9074,13 +8541,9 @@
         "payloads": [
           {
             "payload_id": "Telstar 19V",
-            "norad_id": [
-              43562
-            ],
+            "norad_id": [43562],
             "reused": false,
-            "customers": [
-              "Telesat"
-            ],
+            "customers": ["Telesat"],
             "nationality": "Canada",
             "manufacturer": "SSL",
             "payload_type": "Satellite",
@@ -9114,12 +8577,7 @@
         "ship": null
       }
     },
-    "ships": [
-      "GOPURSUIT",
-      "GOQUEST",
-      "HAWK",
-      "OCISLY"
-    ],
+    "ships": ["GOPURSUIT", "GOQUEST", "HAWK", "OCISLY"],
     "telemetry": {
       "flight_club": "https://www.flightclub.io/results/?code=TS19V"
     },
@@ -9182,10 +8640,8 @@
   {
     "flight_number": 66,
     "mission_name": "Iridium NEXT Mission 7",
-    "mission_id": [
-      "F3364BF"
-    ],
-    "launch_year": "2018",
+    "mission_id": ["F3364BF"],
+    "launch_year": "2019",
     "launch_date_unix": 1532518766,
     "launch_date_utc": "2018-07-25T11:39:26.000Z",
     "launch_date_local": "2018-07-25T04:39:26-07:00",
@@ -9219,21 +8675,11 @@
           {
             "payload_id": "Iridium NEXT 7",
             "norad_id": [
-              43569,
-              43570,
-              43571,
-              43572,
-              43573,
-              43574,
-              43575,
-              43576,
-              43577,
+              43569, 43570, 43571, 43572, 43573, 43574, 43575, 43576, 43577,
               43578
             ],
             "reused": false,
-            "customers": [
-              "Iridium Communications"
-            ],
+            "customers": ["Iridium Communications"],
             "nationality": "United States",
             "manufacturer": "Thales Alenia Space",
             "payload_type": "Satellite",
@@ -9267,12 +8713,7 @@
         "ship": "MR STEVEN"
       }
     },
-    "ships": [
-      "JRTI-2",
-      "MRSTEVEN",
-      "NRCQUEST",
-      "PACIFICFREEDOM"
-    ],
+    "ships": ["JRTI-2", "MRSTEVEN", "NRCQUEST", "PACIFICFREEDOM"],
     "telemetry": {
       "flight_club": "https://www.flightclub.io/result?code=IRD7"
     },
@@ -9367,13 +8808,9 @@
         "payloads": [
           {
             "payload_id": "Telkom-4",
-            "norad_id": [
-              43587
-            ],
+            "norad_id": [43587],
             "reused": false,
-            "customers": [
-              "Telkom"
-            ],
+            "customers": ["Telkom"],
             "nationality": "Indonesia",
             "manufacturer": "SSL",
             "payload_type": "Satellite",
@@ -9407,10 +8844,7 @@
         "ship": null
       }
     },
-    "ships": [
-      "HAWK",
-      "OCISLY"
-    ],
+    "ships": ["HAWK", "OCISLY"],
     "telemetry": {
       "flight_club": null
     },
@@ -9473,9 +8907,7 @@
   {
     "flight_number": 68,
     "mission_name": "Telstar 18V",
-    "mission_id": [
-      "F4F83DE"
-    ],
+    "mission_id": ["F4F83DE"],
     "launch_year": "2018",
     "launch_date_unix": 1536554700,
     "launch_date_utc": "2018-09-10T04:45:00.000Z",
@@ -9509,13 +8941,9 @@
         "payloads": [
           {
             "payload_id": "Telstar 18V",
-            "norad_id": [
-              43611
-            ],
+            "norad_id": [43611],
             "reused": false,
-            "customers": [
-              "Telesat"
-            ],
+            "customers": ["Telesat"],
             "nationality": "Canada",
             "manufacturer": "SSL",
             "payload_type": "Satellite",
@@ -9549,11 +8977,7 @@
         "ship": null
       }
     },
-    "ships": [
-      "OCISLY",
-      "HAWK",
-      "GOQUEST"
-    ],
+    "ships": ["OCISLY", "HAWK", "GOQUEST"],
     "telemetry": {
       "flight_club": "https://www.flightclub.io/result/2d?code=T18V"
     },
@@ -9649,13 +9073,9 @@
         "payloads": [
           {
             "payload_id": "SAOCOM 1A",
-            "norad_id": [
-              43641
-            ],
+            "norad_id": [43641],
             "reused": false,
-            "customers": [
-              "CONAE"
-            ],
+            "customers": ["CONAE"],
             "nationality": "Argentina",
             "manufacturer": "INVAP",
             "payload_type": "Satellite",
@@ -9786,13 +9206,9 @@
         "payloads": [
           {
             "payload_id": "Es’hail 2",
-            "norad_id": [
-              43700
-            ],
+            "norad_id": [43700],
             "reused": false,
-            "customers": [
-              "Es’hailSat"
-            ],
+            "customers": ["Es’hailSat"],
             "nationality": "Qatar",
             "manufacturer": "Mitsubishi Electric",
             "payload_type": "Satellite",
@@ -9826,10 +9242,7 @@
         "ship": null
       }
     },
-    "ships": [
-      "HAWK",
-      "OCISLY"
-    ],
+    "ships": ["HAWK", "OCISLY"],
     "telemetry": {
       "flight_club": "https://www.flightclub.io/result/2d?code=ESL2"
     },
@@ -9929,18 +9342,9 @@
         "payloads": [
           {
             "payload_id": "SSO-A",
-            "norad_id": [
-              43775,
-              43776,
-              43774,
-              43763,
-              43760,
-              43759
-            ],
+            "norad_id": [43775, 43776, 43774, 43763, 43760, 43759],
             "reused": false,
-            "customers": [
-              "Spaceflight Industries, Inc"
-            ],
+            "customers": ["Spaceflight Industries, Inc"],
             "nationality": "United States",
             "manufacturer": "Spaceflight Industries, Inc",
             "payload_type": "Satellite",
@@ -9974,12 +9378,7 @@
         "ship": "MR STEVEN"
       }
     },
-    "ships": [
-      "JRTI-2",
-      "NRCQUEST",
-      "PACIFICFREEDOM",
-      "MRSTEVEN"
-    ],
+    "ships": ["JRTI-2", "NRCQUEST", "PACIFICFREEDOM", "MRSTEVEN"],
     "telemetry": {
       "flight_club": "https://www.flightclub.io/result/2d?code=SSOA"
     },
@@ -10043,9 +9442,7 @@
   {
     "flight_number": 72,
     "mission_name": "CRS-16",
-    "mission_id": [
-      "EE86F74"
-    ],
+    "mission_id": ["EE86F74"],
     "launch_year": "2018",
     "launch_date_unix": 1544033760,
     "launch_date_utc": "2018-12-05T18:16:00.000Z",
@@ -10079,14 +9476,10 @@
         "payloads": [
           {
             "payload_id": "CRS-16",
-            "norad_id": [
-              43827
-            ],
+            "norad_id": [43827],
             "cap_serial": "C112",
             "reused": true,
-            "customers": [
-              "NASA (CRS)"
-            ],
+            "customers": ["NASA (CRS)"],
             "nationality": "United States",
             "manufacturer": "SpaceX",
             "payload_type": "Dragon 1.1",
@@ -10119,9 +9512,7 @@
       },
       "fairings": null
     },
-    "ships": [
-      "GOQUEST"
-    ],
+    "ships": ["GOQUEST"],
     "telemetry": {
       "flight_club": "https://www.flightclub.io/result/2d?code=CR16"
     },
@@ -10217,13 +9608,9 @@
         "payloads": [
           {
             "payload_id": "GPS III SV01",
-            "norad_id": [
-              43873
-            ],
+            "norad_id": [43873],
             "reused": false,
-            "customers": [
-              "USAF"
-            ],
+            "customers": ["USAF"],
             "nationality": "United States",
             "manufacturer": "Lockheed Martin",
             "payload_type": "Satellite",
@@ -10317,9 +9704,7 @@
   {
     "flight_number": 74,
     "mission_name": "Iridium NEXT Mission 8",
-    "mission_id": [
-      "F3364BF"
-    ],
+    "mission_id": ["F3364BF"],
     "launch_year": "2019",
     "launch_date_unix": 1547220660,
     "launch_date_utc": "2019-01-11T15:31:00.000Z",
@@ -10354,21 +9739,11 @@
           {
             "payload_id": "Iridium NEXT 8",
             "norad_id": [
-              43922,
-              43923,
-              43924,
-              43925,
-              43926,
-              43927,
-              43928,
-              43929,
-              43930,
+              43922, 43923, 43924, 43925, 43926, 43927, 43928, 43929, 43930,
               43931
             ],
             "reused": false,
-            "customers": [
-              "Iridium Communications"
-            ],
+            "customers": ["Iridium Communications"],
             "nationality": "United States",
             "manufacturer": "Thales Alenia Space",
             "payload_type": "Satellite",
@@ -10402,11 +9777,7 @@
         "ship": null
       }
     },
-    "ships": [
-      "JRTI-2",
-      "NRCQUEST",
-      "PACIFICFREEDOM"
-    ],
+    "ships": ["JRTI-2", "NRCQUEST", "PACIFICFREEDOM"],
     "telemetry": {
       "flight_club": "https://www.flightclub.io/result?code=IRD8"
     },
@@ -10504,13 +9875,9 @@
         "payloads": [
           {
             "payload_id": "Nusantara Satu (PSN-6)",
-            "norad_id": [
-              44048
-            ],
+            "norad_id": [44048],
             "reused": false,
-            "customers": [
-              "Pasifik Satelit Nusantara"
-            ],
+            "customers": ["Pasifik Satelit Nusantara"],
             "nationality": "Indonesia",
             "manufacturer": "SSL",
             "payload_type": "Satellite",
@@ -10539,9 +9906,7 @@
             "payload_id": "S5",
             "norad_id": [],
             "reused": false,
-            "customers": [
-              "Air Force Research Laboratory"
-            ],
+            "customers": ["Air Force Research Laboratory"],
             "nationality": "United States",
             "manufacturer": "Applied Defense Systems",
             "payload_type": "Satellite",
@@ -10568,13 +9933,9 @@
           },
           {
             "payload_id": "Beresheet",
-            "norad_id": [
-              44049
-            ],
+            "norad_id": [44049],
             "reused": false,
-            "customers": [
-              "SpaceIL"
-            ],
+            "customers": ["SpaceIL"],
             "nationality": "Israel",
             "manufacturer": "SSL",
             "payload_type": "Lander",
@@ -10608,9 +9969,7 @@
         "ship": null
       }
     },
-    "ships": [
-      "OCISLY"
-    ],
+    "ships": ["OCISLY"],
     "telemetry": {
       "flight_club": null
     },
@@ -10674,9 +10033,7 @@
   {
     "flight_number": 76,
     "mission_name": "CCtCap Demo Mission 1",
-    "mission_id": [
-      "EE86F74"
-    ],
+    "mission_id": ["EE86F74"],
     "launch_year": "2019",
     "launch_date_unix": 1551512700,
     "launch_date_utc": "2019-03-02T07:45:00.000Z",
@@ -10710,14 +10067,10 @@
         "payloads": [
           {
             "payload_id": "CCtCap Demo Mission 1",
-            "norad_id": [
-              44063
-            ],
+            "norad_id": [44063],
             "cap_serial": "C201",
             "reused": false,
-            "customers": [
-              "NASA (CCtCap)"
-            ],
+            "customers": ["NASA (CCtCap)"],
             "nationality": "United States",
             "manufacturer": "SpaceX",
             "payload_type": "Crew Dragon",
@@ -10750,9 +10103,7 @@
       },
       "fairings": null
     },
-    "ships": [
-      "OCISLY"
-    ],
+    "ships": ["OCISLY"],
     "telemetry": {
       "flight_club": "https://www2.flightclub.io/result/2d?code=DEM1"
     },

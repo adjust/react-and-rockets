@@ -57,5 +57,10 @@ Array [
     "mission_name": "Iridium NEXT Mission 8",
     "payloads_count": 1,
   },
+  Object {
+    "flight_number": 66,
+    "mission_name": "Iridium NEXT Mission 7",
+    "payloads_count": 1,
+  },
 ]
 `;

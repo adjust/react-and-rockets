@@ -18,8 +18,6 @@
     "eject": "react-scripts eject",
     "test:1": "react-scripts test src/tests/1_task.test.js",
     "test:2": "react-scripts test src/tests/2_task.test.js",
-    "test:3": "react-scripts test src/tests/3_task.test.js",
-    "test:4": "react-scripts test src/tests/4_task.test.js",
     "test:all": "react-scripts test src/tests"
   },
   "eslintConfig": {
