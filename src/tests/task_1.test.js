@@ -1,4 +1,4 @@
-import { prepareData } from "../solutions/1_task";
+import { prepareData } from "../solutions/task_1";
 import data from "./__fixtures__/data.json";
 
 /* 

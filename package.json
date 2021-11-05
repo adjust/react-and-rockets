@@ -16,8 +16,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "test:1": "react-scripts test src/tests/1_task.test.js",
-    "test:2": "react-scripts test src/tests/2_task.test.js",
+    "test:1": "react-scripts test src/tests/task_1.test.js",
+    "test:2": "react-scripts test src/tests/task_2.test.js",
     "test:all": "react-scripts test src/tests"
   },
   "eslintConfig": {

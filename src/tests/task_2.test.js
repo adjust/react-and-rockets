@@ -1,5 +1,5 @@
-import * as TaskOneSolution from "../solutions/1_task";
-import { RocketsList } from "../solutions/2_task";
+import * as TaskOneSolution from "../solutions/task_1";
+import { RocketsList } from "../solutions/task_2";
 import { render, waitFor } from "@testing-library/react";
 import testSpecs from "./__fixtures__/testSpecs.json";
 
