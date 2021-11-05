@@ -1,5 +1,3 @@
 // Please implement your solution in this file
 
-export const prepareData =
-  ({ year, customerName }) =>
-  (missions) => {};
+export const prepareData = () => {};
