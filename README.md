@@ -23,7 +23,7 @@ Before you begin, **please make sure you read this page entirely**. If you have 
 1. You **MUST [clone this repo](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository)** to a location of your choosing where you can work on your solution
 2. Write your solutions inside of the files contained in **`src/solutions`**, making sure the provided tests are green. **Please do not modify anything inside of `src/tests`**
 3. Push your solution to a **private repo** in your **personal Github account**
-4. When you are ready for us to take a look, please add `frontend-hiring-github-user` (GitHub user) as collaborator
+4. When you are ready for us to take a look, please add [adjust-frontend-hiring][adjust-frontend-hiring] (GitHub user) as collaborator
 
 ## Exercise
 
@@ -124,7 +124,7 @@ The expected render should be:
 
 If you have any doubts, you can reach out to us by simply [creating a GitHub issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue#creating-an-issue-from-a-repository) in your private repo.
 
-Describe your question(s) and [mention](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#mentioning-people-and-teams) `frontend-hiring-github-user` in your comments (don't forget to add user as collaborator). We will then receive a notification and get back to you as soon as possible.
+Describe your question(s) and [mention](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#mentioning-people-and-teams) [adjust-frontend-hiring][adjust-frontend-hiring] in your comments (don't forget to add user as collaborator). We will then receive a notification and get back to you as soon as possible.
 
 ## Helpful links
 
@@ -138,3 +138,4 @@ Describe your question(s) and [mention](https://docs.github.com/en/github/writin
 [template-literals]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
 [custom-hook]: https://reactjs.org/docs/hooks-custom.html
 [data-fixture]: https://github.com/adjust/react-and-rockets/tree/main/src/tests/__fixtures__/data.json
+[adjust-frontend-hiring]: https://github.com/adjust-frontend-hiring
