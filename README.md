@@ -30,7 +30,7 @@ Here you will be given the opportunity to play with JavaScript and Rockets in th
 Your challenge submission will be disqualified and automatically rejected if any of the following happens:
 
 - Your **repo was not properly cloned** as specified on step #1 of Instructions. [See how to clone a repository here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository). **Note:** If you cloned the repo properly, previous commits from this (original) repo, must be showing on your git history.
-- Your **tests are not passing** (green) as specified on step #2 of Instructions. **Note:** You can run tests with `npm run test` or `yarn test` (according to the package manager you are using).
+- Your **tests are not passing** (green) as specified on step #2 of Instructions. **Note:** You can run tests with command `npm run test src` or `yarn test src` (according to the package manager you are using).
 - You **have modified any of the files inside of `src/tests`** as specified on step #2 of Instructions.
 - Your **repo visibility is not set to private** as specified on step #3 of Instructions. [See how to make a repository private here](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/setting-repository-visibility).
 
