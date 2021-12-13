@@ -14,12 +14,13 @@
   },
   {
     "filterParams": {
-      "year": 2019,
+      "year": 2018,
       "customerName": "Iridium"
     },
     "results": [
-      "#74 Iridium NEXT Mission 8 (1)",
-      "#66 Iridium NEXT Mission 7 (1)"
+      "#62 Iridium NEXT Mission 6 (2)",
+      "#66 Iridium NEXT Mission 7 (1)",
+      "#58 Iridium NEXT Mission 5 (1)"
     ]
   }
 ]

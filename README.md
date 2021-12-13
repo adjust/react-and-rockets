@@ -12,7 +12,7 @@
 
 Here you will be given the opportunity to play with JavaScript and Rockets in the same project. For this, we recommend you to block 2-3 hours of your time to complete it.
 
-Before you begin, **please make sure you read this page entirely**. If you have any doubts, please reach out to us by [opening an issue](https://github.com/adjust/react-and-rockets#how-to-request-help) as described at the bottom of this page.
+**Please make sure you have read this page entirely, before starting the challenge**. If you have any doubts, please reach out to us by [opening an issue](https://github.com/adjust/react-and-rockets#how-to-request-help) as described at the bottom of this page.
 
 **Importantly**, we would like to give all candidates taking this test the same opportunity to solve the exercise in their own way. Because of this, **please do not fork or share this repo (nor your solution) with anybody 🙏🏻**
 
@@ -24,6 +24,17 @@ Before you begin, **please make sure you read this page entirely**. If you have 
 2. Write your solutions inside of the files contained in **`src/solutions`**, making sure the provided tests are green. **Please do not modify anything inside of `src/tests`**
 3. Push your solution to a **private repo** in your **personal Github account**
 4. When you are ready for us to take a look, please add [adjust-frontend-hiring][adjust-frontend-hiring] (GitHub user) as collaborator
+
+## Important rules
+
+Your challenge submission will be disqualified and automatically rejected if any of the following happens:
+
+- Your **repo was not properly cloned** as specified on step #1 of Instructions. [See how to clone a repository here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository). **Note:** If you cloned the repo properly, previous commits from this (original) repo, must be showing on your git history.
+- Your **tests are not passing** (green) as specified on step #2 of Instructions. **Note:** You can run tests with command `npm run test src` or `yarn test src` (according to the package manager you are using).
+- You **have modified any of the files inside of `src/tests`** as specified on step #2 of Instructions.
+- Your **repo visibility is not set to private** as specified on step #3 of Instructions. [See how to make a repository private here](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/setting-repository-visibility).
+
+---
 
 ## Exercise
 
@@ -55,27 +66,27 @@ The expected result should be:
 [
   {
     flight_number: 62,
-    mission_name: "Iridium NEXT Mission 6",
+    mission_name: 'Iridium NEXT Mission 6',
     payloads_count: 2,
   },
   {
     flight_number: 72,
-    mission_name: "CRS-16",
+    mission_name: 'CRS-16',
     payloads_count: 1,
   },
   {
     flight_number: 64,
-    mission_name: "CRS-15",
+    mission_name: 'CRS-15',
     payloads_count: 1,
   },
   {
     flight_number: 60,
-    mission_name: "TESS",
+    mission_name: 'TESS',
     payloads_count: 1,
   },
   {
     flight_number: 59,
-    mission_name: "CRS-14",
+    mission_name: 'CRS-14',
     payloads_count: 1,
   },
 ];
@@ -88,16 +99,17 @@ The expected result should be:
 Implement `RocketsList` component with the following specifications:
 
 1. It takes `filerParams` object (with shape described in [task #1][task-1]) as a prop
-2. It obtains a list of 'missions' from a [custom hook][custom-hook], which fetches **the whole list of missions** from [SpaceX API][spacex-api] and processes them with `prepareData` function (from [task #1][task-1]) and `filterParams` prop
+2. It obtains a list of 'missions' from a [custom hook][custom-hook], which uses [global fetch][global-fetch] (`window.fetch`) to _GET_ **the whole list of missions** from [SpaceX API][spacex-api] and processes them with `prepareData` function (from [task #1][task-1]) and `filterParams` prop
 3. For each 'mission' obtained from the custom hook, it renders a string using [template literals][template-literals] with the following format: "#`flight_number` `mission_name` (`payloads_count`)"
 4. While 'missions' are being fetched from API, it renders `"Loading..."` to screen
 5. If no 'missions' are obtained from the custom hook, it renders `"No data"` to screen
 
 **Observations:**
 
-- Missions processing with `prepareData` must happen **inside** the custom hook.
+- Missions processing with `prepareData` must happen **inside** the custom hook
 - The list of missions should be re-processed if `filterParams` prop changes, **BUT no new API calls should happen** to [SpaceX API][spacex-api]
-- You are not allowed to use any of the filter parameters provided by the [SpaceX API docs][spacex-api-docs], just fetch all available data and process it with `prepareData` function.
+- You are not allowed to use any of the filter parameters provided by the [SpaceX API docs][spacex-api-docs], just fetch all available data and process it with `prepareData` function
+- Only [global fetch][global-fetch] (`window.fetch`) can be used to make API requests
 
 **Example:**
 
@@ -139,3 +151,4 @@ Describe your question(s) and [mention](https://docs.github.com/en/github/writin
 [custom-hook]: https://reactjs.org/docs/hooks-custom.html
 [data-fixture]: https://github.com/adjust/react-and-rockets/tree/main/src/tests/__fixtures__/data.json
 [adjust-frontend-hiring]: https://github.com/adjust-frontend-hiring
+[global-fetch]: https://developer.mozilla.org/en-US/docs/Web/API/fetch
