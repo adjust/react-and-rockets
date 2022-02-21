@@ -10,6 +10,7 @@ beforeAll(() => jest.spyOn(window, "fetch"));
 const mockFetch = () =>
   Promise.resolve({
     json: () => Promise.resolve(data),
+    ok: true,
   });
 
 beforeEach(() => window.fetch.mockImplementation(mockFetch));
