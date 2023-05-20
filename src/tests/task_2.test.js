@@ -17,6 +17,17 @@ const renderRocketsList = (filterParams = testFilterParamsList[0]) =>
   render(<RocketsList filterParams={filterParams} />);
 
 describe("# RocketsList", () => {
+  it(`renders ${LOADING_LABEL} while fetching data`, async () => {
+    const mockFetch = () => new Promise(() => {});
+
+    window.fetch.mockImplementation(mockFetch);
+
+    const { getByText, queryByText } = renderRocketsList();
+
+    await waitFor(() => expect(getByText(LOADING_LABEL)).toBeInTheDocument());
+    expect(queryByText(NO_DATA_LABEL)).not.toBeInTheDocument();
+  });
+
   it("renders 'Loading...' while fetching data, and 'No data' on no missions obtained", async () => {
     const mockFetch = () =>
       Promise.resolve({
@@ -25,33 +36,34 @@ describe("# RocketsList", () => {
 
     window.fetch.mockImplementation(mockFetch);
 
-    const { getByText } = renderRocketsList();
+    const { getByText, queryByText } = renderRocketsList();
 
-    await waitFor(() => {
-      expect(getByText(LOADING_LABEL)).toBeInTheDocument();
-    });
-
-    await waitFor(() => {
-      expect(getByText(NO_DATA_LABEL)).toBeInTheDocument();
-    });
+    expect(getByText(LOADING_LABEL)).toBeInTheDocument();
+    await waitFor(() => expect(getByText(NO_DATA_LABEL)).toBeInTheDocument());
+    await waitFor(() =>
+      expect(queryByText(LOADING_LABEL)).not.toBeInTheDocument()
+    );
   });
 
   it("fetches the whole list of mission from SpaceX API", async () => {
-    const { getByText } = renderRocketsList();
+    const { getByText, queryByText } = renderRocketsList();
 
     // to avoid RTL 'act' warning
-    await waitFor(() => {
-      expect(getByText(LOADING_LABEL)).toBeInTheDocument();
-    });
+    await waitFor(() => expect(getByText(LOADING_LABEL)).toBeInTheDocument());
 
     expect(window.fetch).toHaveBeenCalledTimes(1);
     expect(window.fetch).toHaveBeenCalledWith(API_URL);
+
+    expect(queryByText(LOADING_LABEL)).not.toBeInTheDocument();
+    expect(queryByText(NO_DATA_LABEL)).not.toBeInTheDocument();
   });
 
   it("should re-process missions with prepareData every time filterParams change, but not call API anymore", async () => {
     const prepareDataSpy = jest.spyOn(TaskOneSolution, "prepareData");
 
-    const { rerender, getByText } = renderRocketsList(testFilterParamsList[0]);
+    const { rerender, getByText, queryByText } = renderRocketsList(
+      testFilterParamsList[0]
+    );
 
     expect(prepareDataSpy).toHaveBeenCalledTimes(1);
     expect(prepareDataSpy).toHaveBeenCalledWith(testFilterParamsList[0]);
@@ -65,11 +77,12 @@ describe("# RocketsList", () => {
     expect(window.fetch).toHaveBeenCalledTimes(1);
 
     // to avoid RTL 'act' warning
-    await waitFor(() => {
-      expect(getByText(LOADING_LABEL)).toBeInTheDocument();
-    });
+    await waitFor(() => expect(getByText(LOADING_LABEL)).toBeInTheDocument());
 
     prepareDataSpy.mockRestore();
+
+    expect(queryByText(LOADING_LABEL)).not.toBeInTheDocument();
+    expect(queryByText(NO_DATA_LABEL)).not.toBeInTheDocument();
   });
 
   describe("renders all obtained missions correctly", () => {
